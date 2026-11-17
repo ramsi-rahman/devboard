@@ -57,5 +57,7 @@ jobs:
 
       - name: run tests
         run: go test -race ./..
+        with:
+          working-directory: backend
         
 
